@@ -63,10 +63,10 @@ export default function Home() {
 
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Welcome to my creative playground! 🚀 As a fervent Frontend
-              Developer and Designer, I'm on a mission to sculpt flawless user
+              Developer and Designer, I am on a mission to sculpt flawless user
               experiences by merging cutting-edge code with boundless
-              creativity. Together, let's transform your concepts into something
-              extraordinary! Dive in below, and let the magic begin!
+              creativity. Together, let us transform your concepts into
+              something extraordinary! Dive in below, and let the magic begin!
             </p>
 
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
@@ -112,8 +112,8 @@ export default function Home() {
             </h3>
 
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Embarking on a journey as a designer and developer, I've immersed
-              myself in a world of Full-Time remote work for
+              Embarking on a journey as a designer and developer, I&apos;ve
+              immersed myself in a world of Full-Time remote work for
               <span className="text-teal-500">innovative agencies</span>,
               provided invaluable insights for
               <span className="text-teal-500">dynamic startups</span>, and
@@ -123,14 +123,14 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I bring a versatile skill set to the table, ranging from crafting
               impactful brand designs to writing meticulous code and sharing
-              knowledge through teaching. Together, let's transform your
+              knowledge through teaching. Together, let us transform your
               concepts into not just digital experiences, but extraordinary ones
               that captivate and resonate!
             </p>
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} width={100} height={100} alt={logo} />
               <h3 className="text-lg font-bold pt-8 pb-2 text-teal-600">
                 Elegance Redefined: Beautiful Designs
               </h3>
@@ -148,13 +148,13 @@ export default function Home() {
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} width={100} height={100} alt={logo} />
               <h3 className="text-lg font-bold pt-8 pb-2 text-teal-600">
                 Craft Innovative Solutions
               </h3>
               <p className="py-2">
                 Ready to embark on a journey to create innovative solutions for
-                your project? Let's collaborate and bring your ideas to life!
+                your project? Let us collaborate and bring your ideas to life!
               </p>
               <h4 className="py-4 text-teal-600">Skills & Tools</h4>
               <p className="text-gray-800 py-1">JavaScript</p>
@@ -164,7 +164,7 @@ export default function Home() {
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} width={100} height={100} alt={logo} />
               <h3 className="text-lg font-medium pt-8 pb-2">
                 Development Consulting
               </h3>
@@ -186,12 +186,12 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
 
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Embarking on my journey as a freelance designer and developer,
-              I've not only worked remotely for{" "}
+              Embarking on my journey as a freelance designer and developer, I
+              have not only worked remotely for{" "}
               <span className="text-teal-500">innovative agencies</span> but
               also provided valuable insights for{" "}
               <span className="text-teal-500">dynamic startups</span>.
-              Collaborating with talented individuals, we've crafted digital
+              Collaborating with talented individuals, we have crafted digital
               products that cater to the diverse needs of both businesses and
               discerning consumers.
             </p>
@@ -199,13 +199,14 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Welcome to my creative hub! I offer a diverse range of services,
               spanning from captivating brand designs to precise programming and
-              knowledge-sharing through teaching. Let's collaborate and bring
+              knowledge-sharing through teaching. Let us collaborate and bring
               your ideas to life with a touch of innovation and expertise.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
               <Image
+                alt={logo}
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -219,6 +220,7 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
+                alt={logo}
                 src={web2}
               />
             </div>
@@ -228,6 +230,7 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
+                alt={logo}
                 src={web3}
               />
             </div>
@@ -237,6 +240,7 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
+                alt={logo}
                 src={web4}
               />
             </div>
@@ -246,6 +250,7 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
+                alt={logo}
                 src={web5}
               />
             </div>
@@ -255,6 +260,7 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
+                alt={logo}
                 src={web6}
               />
             </div>
